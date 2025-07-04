@@ -92,22 +92,26 @@ project/
 - Install dependencies:  
   ```bash
   pip install flask requests
+  ```
   
 ## ⚙️ How to Run
 
 ### 1. Set up your environment:
 
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-pip install flask requests
+  ```bash
+  python -m venv venv
+  source venv/bin/activate  # On Windows: venv\Scripts\activate
+  pip install flask requests
+  ```
 
 ### 2. Replace your API key:
 In app.py, replace:
-  HUGGINGFACE_API_TOKEN = "hf_...senin_api_key..."
+  HUGGINGFACE_API_TOKEN = "hf_...YOUR_api_key..."
 
 ### 3. Run the server
+  ```bash
   python app.py
+  ```
 ###4. Open your browser:
   Navigate to:
   http://127.0.0.1:5000
