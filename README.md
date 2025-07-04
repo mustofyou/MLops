@@ -61,11 +61,17 @@ It is based on the **Transformer architecture**, which uses self-attention mecha
 ## 📁 Project Structure
 project/
 │
+
 ├── app.py # Flask server application
+
 ├── templates/
+
 │ └── index.html # Frontend HTML template
+
 ├── static/
+
 │ └── uploads/ # Folder for uploaded files
+
 └── README.md # This file
 
 
